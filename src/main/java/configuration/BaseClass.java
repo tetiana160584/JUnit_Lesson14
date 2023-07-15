@@ -10,7 +10,7 @@ public class BaseClass {
 
     @BeforeClass
     public static void create(){
-        driver= DriverFactory.greateDriver(WEBDRIVERS.CHROMECLEAN);
+        driver= DriverFactory.createDriver(WEBDRIVERS.CHROMECLEAN);
     }
     @AfterClass
     public static void end() throws InterruptedException{

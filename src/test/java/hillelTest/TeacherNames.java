@@ -40,7 +40,6 @@ public class TeacherNames extends BaseClass {
         wait.until(ExpectedConditions.presenceOfElementLocated(courseFrontEndBasic));
 
     }
-
     @Test
     public void selectionFrontEndBasic() {
         WebElement frontEnd = driver.findElement(courseFrontEndBasic);
